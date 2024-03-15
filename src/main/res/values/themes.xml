@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Car" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/cardview_dark_background</item>
+        <item name="colorOnSecondary">@color/cardview_shadow_end_color</item>
+    </style>
+
+    <style name="Theme.Carex" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brown</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/carex</item>
+        <item name="postSplashScreenTheme">@style/Theme.Car</item>
+    </style>
+
+<!--    <style name="Theme.Car" parent="Base.Theme.Car" />-->
+</resources>
